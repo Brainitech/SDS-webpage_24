@@ -3,8 +3,6 @@
   justify-content: space-between;
   align-items: center;
   height: clamp(4vh, 6vh, 7vh);
-  background-color: rgba(3, 0, 20, 0.09);
-  backdrop-filter: blur(10px);
   z-index: 100;
   position: fixed;
   width: 100vw;
@@ -56,17 +54,14 @@ ul {
 
 .pagesli a:hover {
   color: orange;
-  font-weight: bolder;
-  background: linear-gradient(to top, #ff00c6 0%, #4c239d 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 105%;
+  font-size: 100%;
+  transition:0.5s all ease-in-out;
 }
 .pagesli.active > a {
   color: orange;
-  font-weight: bolder;
-  background: linear-gradient(to top, #ff00c6 0%, #4c239d 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

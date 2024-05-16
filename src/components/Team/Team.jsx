@@ -11,7 +11,6 @@ import "./dots.css"
 function Card({ member, id }) {
   const { name, role, pfp } = member
   return (
-    <>
       <div className="card-cont">
         <div className="card">
           <div className="front">
@@ -28,14 +27,13 @@ function Card({ member, id }) {
               <a href="#" className="socialt">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a href="#" className="socialt">
+              <a href="#" className="socialt"><a href="#"></a>
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
           </div>
         </div>
       </div>
-    </>
   )
 }
 
