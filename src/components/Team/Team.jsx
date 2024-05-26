@@ -74,18 +74,116 @@ function Team() {
       gt: "https://github.com/Matheletss",
       ld: "https://www.linkedin.com/in/sagar-thakur-223829259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
-    { name: "person2", role: "role", pfp: defpfp, gt: "#", ld: "#" },
-    { name: "person3", role: "role", pfp: defpfp, gt: "#", ld: "#" },
-    { name: "person4", role: "role", pfp: defpfp, gt: "#", ld: "#" },
-    { name: "person5", role: "role", pfp: defpfp, gt: "#", ld: "#" },
-    { name: "person6", role: "role", pfp: defpfp, gt: "#", ld: "#" },
-    { name: "person7", role: "role", pfp: defpfp, gt: "#", ld: "#" },
-    { name: "person8", role: "role", pfp: defpfp, gt: "#", ld: "#" },
-    { name: "person9", role: "role", pfp: defpfp, gt: "#", ld: "#" },
-    { name: "person10", role: "role", pfp: defpfp, gt: "#", ld: "#" },
-    { name: "person11", role: "role", pfp: defpfp, gt: "#", ld: "#" },
-    { name: "person12", role: "role", pfp: defpfp, gt: "#", ld: "#" },
-    { name: "person13", role: "role", pfp: defpfp, gt: "#", ld: "#" },
+    
+    {
+      name: "Rounak Kumar",
+      role: "Social Media Manager",
+      pfp: defpfp,
+      gt: "https://github.com/raw9k",
+      ld: "https://www.linkedin.com/in/guptarounak" 
+    },
+    
+    {
+      name: "Apurva Mishra",
+      role: "Joint Secretary",
+      pfp: defpfp,
+      gt: "https://github.com/Apooorv69",
+      ld: "https://www.linkedin.com/in/apooorv" 
+    },
+    
+    {
+      name: "Rachit Bansal",
+      role: "General Secretary",
+      pfp: defpfp,
+      gt: "https://github.com/this-is-rachit",
+      ld: "https://www.linkedin.com/in/rachit-bansal-960829253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+    },
+    
+    {
+      name: "Debspandan",
+      role: "Treasurer",
+      pfp: defpfp,
+      gt: "https://github.com/DebspandanC2911",
+      ld: "https://www.linkedin.com/in/debspandan-chakraborty?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+    },
+    
+    {
+      name: "Kumar Harshwardhan",
+      role: "VP - Academic Affairs",
+      pfp: defpfp,
+      gt: "https://github.com/harshwardhan5",
+      ld: "https://www.linkedin.com/in/kumar-hrshwrdhn/" 
+    },
+    
+    {
+      name: "Amarjeet",
+      role: "Vice President - Industry Relations",
+      pfp: defpfp,
+      gt: "https://www.github.com/jeetamar28",
+      ld: "https://www.linkedin.com/in/jeetamar" 
+    },
+    
+    {
+      name: "Vanisha Kandhway",
+      role: "Joint Treasurer",
+      pfp: defpfp,
+      gt: "https://github.com/vanishakandhway",
+      ld: "https://www.linkedin.com/in/vanisha-kandhway-2b1831255/" 
+    },
+    
+    {
+      name: "Pragya Singh",
+      role: "Team Coordinator",
+      pfp: defpfp,
+      gt: "https://github.com/PragyaSingh17075",
+      ld: "https://www.linkedin.com/in/pragya-singh-6a961b28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+    },
+    
+    {
+      name: "Aayushii Singh",
+      role: "Member",
+      pfp: defpfp,
+      gt: "https://github.com/aayushii31",
+      ld: "https://www.linkedin.com/in/aayushii-singh-522606234/" 
+    },
+    
+    {
+      name: "Yaagik Maurya",
+      role: "Joint President",
+      pfp: defpfp,
+      gt: "https://github.com/YaagikMaurya",
+      ld: "https://www.linkedin.com/in/yaagik-maurya-1a47a0230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+    {
+      name: "Animesh Kumar",
+      role: "Academic Coordinator",
+      pfp: defpfp,
+      gt: "https://github.com/04CodingAnimesh",
+      ld: "https://www.linkedin.com/in/animesh-kumar-240b56240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+    },
+    
+    {
+      name: "Gaurav Kumar Singh",
+      role: "Vice President - Web and Tech",
+      pfp: defpfp,
+      gt: "https://github.com/stark1144",
+      ld: "https://www.linkedin.com/in/gaurav-kumar-singh-45986b236" 
+    },
+    
+    {
+      name: "Vishal Kumar Singh",
+      role: "Finance and Sponsorship Coordinator",
+      pfp: defpfp,
+      gt: "#",
+      ld: "https://www.linkedin.com/in/vishal-kumar-singh-ba675b260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+    },
+    
+    {
+      name: "Naman Khatwani",
+      role: "Content Head",
+      pfp: defpfp,
+      gt: "https://github.com/namankhatwani",
+      ld: "https://in.linkedin.com/in/naman-khatwani-a7a749244" 
+    },
   ]
 
   return (
