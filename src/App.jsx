@@ -8,6 +8,7 @@ import ABT from "./components/abt pg/abt.jsx"
 import Blank from "./components/blank/blank.jsx"
 import Alumini from "./components/Alumini/Alumini.jsx"
 import "./App.css"
+import Footer from "./components/Footer/Footer.jsx"
 
 function App() {
   console.log(window.location.pathname)

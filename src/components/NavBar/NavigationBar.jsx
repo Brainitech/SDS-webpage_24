@@ -23,22 +23,22 @@ function NavBar() {
           <CustomLink href="/ABOUT#about" className="pagesli">
             About
           </CustomLink>
-          <CustomLink href="/SERVICES" className="pagesli">
+          <CustomLink href="/ABOUT#whut" className="pagesli">
             Services
           </CustomLink>
           <CustomLink href="/TEAM" className="pagesli">
             Team
           </CustomLink>
-          <CustomLink href="/BLOGS" className="pagesli">
+          <CustomLink href="https://sdsbitmesra.netlify.app/blogs/" className="pagesli">
             Blogs
           </CustomLink>
-          <CustomLink href="/ALUMINI" className="pagesli">
+          {/* <CustomLink href="/ALUMINI" className="pagesli">
             Alumni
           </CustomLink>
           <CustomLink href="/EVENTS" className="pagesli">
             Events
-          </CustomLink>
-          <CustomLink href="/CONTACT" className="pagesli">
+          </CustomLink> */}
+          <CustomLink href="/ABOUT#footer" className="pagesli">
             Contact
           </CustomLink>
         </ul>

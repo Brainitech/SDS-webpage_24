@@ -198,10 +198,13 @@ const RegForm = () => {
         <div className="SuccessPage" style={{ margin: "10px" }}>
           <h1>Registered Successfully</h1>
           <h2>Join the Whatsapp group using the link given below</h2>
-          <div style={{ color: "white", margin: "40px" }}>link...</div>
+          <div style={{ color: "white", margin: "40px" }} className="whatsapp">
+            <span><i className="fa fa-whatsapp"></i></span>
+            <a href="https://chat.whatsapp.com/Exfzup3UWJb2YxFIPWWhBm">SDSxPathway Bootcamp</a>
+          </div>
           <div className="GoBack">
-            <i className="fa-solid fa-arrow-left fa-shake"></i>
-            <a href="events">Go Back</a>
+            <i className="fa-solid fa-arrow-left"></i>
+            <a href="HOME">Go Back</a>
           </div>
         </div>
       )}

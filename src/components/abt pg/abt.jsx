@@ -11,11 +11,13 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons"
 import cardbg from "./images/abstract-background-images-wallpaper-ai-generated_643360-33367.jpg"
 import sehasdev from "./images/Seshadev-Padhi-removebg-preview.png"
 import kirti from "./images/1709622482629.jpeg"
+import Footer from "../Footer/Footer"
 
 // import REG_form from "../RAG-Reg/page.jsx"
 
 const ABT = () => {
   const aboutRef = useRef(null)
+  const footerRef = useRef(null)
 
   useEffect(() => {
     if (window.location.hash === "#about" && aboutRef.current) {
@@ -58,12 +60,12 @@ const ABT = () => {
           <span key={index}></span>
         ))}
       </div>
-      <div className="content" style={{ paddingBottom: "0px", display: "flex" }}>
+      <div className="content" style={{ paddingBottom: "0px", display: "flex", marginTop: "10vh" }}>
         <div className="welcome" style={{ paddingBottom: "0px" }}>
           <p
             style={{
               fontSize: "medium",
-              fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+              fontFamily: "'Montserrat', sans-serif",
               paddingLeft: "5%",
               paddingTop: "10%",
             }}
@@ -76,12 +78,13 @@ const ABT = () => {
             style={{
               color: "#ff0000",
               paddingLeft: "5%",
-              fontSize: "72px",
+              fontSize: "5rem",
               background: "-webkit-linear-gradient(#ff00c6, #4c239d)",
               backgroundClip: "text",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               fontWeight: "bold",
+              width: "90%"
             }}
           >
             Society for Data Science.
@@ -92,12 +95,12 @@ const ABT = () => {
               className="typed"
               style={{
                 fontSize: "75%",
-                fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+                fontFamily: "'Montserrat', sans-serif",
                 paddingLeft: "5%",
                 paddingRight: "25%",
               }}
             >
-              Dive into the boundless
+              Dive into the boundless{" "}
               <span className="type" style={{ "--n": "116" }}>
                 world of data science with us, where inclusivity meets innovation, empowering students of all backgrounds to excel!
               </span>
@@ -106,35 +109,30 @@ const ABT = () => {
           <br />
           <br />
         </div>
-        <div className="reg" style={{ display: "flex", flexDirection: "column", marginTop: "15vh", marginRight: "10vw" }}>
+        <div className="reg" style={{ display: "flex", flexDirection: "column", marginTop: "10vh", marginRight: "4vw" }}>
           <img
-            src="rag_bootcamp.jpeg"
+            src="sds_bootcamp_new.jpg"
             style={{
-              height: "400px",
-              width: "380px",
+              height: "450px",
+              width: "340px",
               borderRadius: "20px 20px 0px 0px",
               boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
             }}
           />
           <a href="bootcamp" target="_blank">
-            <button>Register now</button>
+            <button style={{width: "340px"}}>Register now</button>
           </a>
         </div>
       </div>
       <section id="about" ref={aboutRef}>
         <div className="who" id="whi">
           <h6 className="we">/WHO WE ARE</h6>
-          <h3 className="headings">
-            The Society for Data Science, BIT Mesra is a pioneering student-run, not-for-profit organization dedicated to exploring the realms of data science and its diverse interdisciplinary
-            applications.
-          </h3>
+          <h5 className="headings">
+          The Society for Data Science at BIT Mesra is a leading student-run nonprofit organization dedicated to advancing data science and its interdisciplinary applications.
+          </h5>
           <br />
           <p className="para">
-            Since its founding in 2019, we have united students from various disciplines behind our shared passion for all things data. Our mission is to foster a strong data science community on
-            campus. Each semester, we focus on developing educational learning experiences like our technical workshops and decal courses to expand data science education on campus, hosting
-            professional events for students to connect with industry leaders and grow their network, and conducting analytics consulting projects to help members gain experience and make an impact.
-            Our program provides over a hundred students each semester with mentorship and data science skills through working in teams on a tangible group project. We aim to build an inclusive and
-            accessible community where students of all levels and backgrounds can dive into the world of data science.
+          Founded in 2019, the Society for Data Science at BIT Mesra unites students from various disciplines with a passion for data. We foster a strong data science community through workshops, courses, professional events, and analytics projects. Each semester, we provide mentorship and hands-on experience to over 100 students, aiming to create an inclusive and accessible environment for all.
           </p>
           <br />
         </div>
@@ -264,6 +262,9 @@ const ABT = () => {
             </p>
           </article>
         </div>
+      </section>
+      <section id="footer" ref={footerRef}>
+        <Footer />
       </section>
     </div>
   )

@@ -1,5 +1,5 @@
 .fcontainer {
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   display: flex;
   align-items: center;
@@ -49,6 +49,30 @@
   border-bottom: 3px solid rebeccapurple;
   margin: 0;
 }
+
+.whatsapp {
+  background-color: #068b7b;
+  padding: 15px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  transition: all 300ms;
+}
+.whatsapp:hover {
+  background-color: #075E54;
+  cursor: pointer;
+}
+
+.whatsapp a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.whatsapp i {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+}
+
 @media (max-width: 370px) {
   .form_wrapper h2 {
     font-size: 1.5em;
@@ -278,10 +302,19 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  font-size: 1.2rem;
 }
-.GoBack a {
-  border-bottom: 2px solid white;
+.GoBack i,
+.GoBack a
+ {
+  font-size: 1.5rem;
+  color: white;
+  transition: all 300ms;
+  text-decoration: none;
+}
+.GoBack:hover i,
+.GoBack:hover a
+{
+  color: rgba(255, 255, 255, 0.637);
 }
 .loading-container2 {
   display: flex;
@@ -331,7 +364,4 @@
   justify-content: center;
   gap: 10px;
   font-size: 1.2rem;
-}
-.GoBack a {
-  border-bottom: 2px solid white;
 }
