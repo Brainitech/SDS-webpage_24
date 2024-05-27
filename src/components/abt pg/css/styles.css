@@ -78,9 +78,9 @@ body {
 .reg button {
   width: 380px;
   height: 80px;
-  border: #2b2bad 17px solid;
-  border-radius: 0px 0px 20px 20px;
-  background-color: #007fdc;
-  color: white;
+  border: #01014b 17px solid;
+  border-radius: 0px 0px 30px 30px;
+  background-color: white;
+  color: black;
   font-weight: bold;
 }

@@ -104,7 +104,7 @@
   transition: all 0s;
 }
 .back h5,
-.back h4 {
+.back h6 {
   color: white;
 }
 .back h4 {
@@ -117,9 +117,8 @@
   border-radius: 5%;
   text-align: center;
   padding-top: 80%;
-  background-color: rgba(0, 0, 0, 0.3);
 }
-h2.frole {
+h3.frole {
   color: white;
   font-weight: bold;
 }
@@ -130,8 +129,10 @@ h2.frole {
 .tprofile {
   align-items: center;
   height: clamp(80px, 15vh, 250px);
+  width: clamp(80px, 15vh, 250px);
   border-radius: 100%;
   box-shadow: 0 0 0 1px#ff00c6, 0 0 0 3px #962db6, 0 0 0 5px #4c239d;
+  object-fit: fill;
 }
 .fprofile {
   width: clamp(250px, 35vw, 300px);
