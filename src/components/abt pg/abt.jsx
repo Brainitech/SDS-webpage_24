@@ -84,7 +84,7 @@ const ABT = () => {
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               fontWeight: "bold",
-              width: "90%"
+              width: "90%",
             }}
           >
             Society for Data Science.
@@ -120,19 +120,26 @@ const ABT = () => {
             }}
           />
           <a href="bootcamp" target="_blank">
-            <button style={{width: "340px"}}>Register now</button>
+            <button style={{ width: "340px" }}>Register now</button>
           </a>
+          <h5 className="githublnk">Star these GitHub repos; we'll revisit these open source libraries during the course:</h5>
+          <div className="githublnks">
+            <a href="https://github.com/pathwaycom/pathway">Pathway Github</a>
+            <a href="https://github.com/pathwaycom/llm-app">LLM App Github</a>
+          </div>
         </div>
       </div>
       <section id="about" ref={aboutRef}>
         <div className="who" id="whi">
           <h6 className="we">/WHO WE ARE</h6>
           <h5 className="headings">
-          The Society for Data Science at BIT Mesra is a leading student-run nonprofit organization dedicated to advancing data science and its interdisciplinary applications.
+            The Society for Data Science at BIT Mesra is a leading student-run nonprofit organization dedicated to advancing data science and its interdisciplinary applications.
           </h5>
           <br />
           <p className="para">
-          Founded in 2019, the Society for Data Science at BIT Mesra unites students from various disciplines with a passion for data. We foster a strong data science community through workshops, courses, professional events, and analytics projects. Each semester, we provide mentorship and hands-on experience to over 100 students, aiming to create an inclusive and accessible environment for all.
+            Founded in 2019, the Society for Data Science at BIT Mesra unites students from various disciplines with a passion for data. We foster a strong data science community through workshops,
+            courses, professional events, and analytics projects. Each semester, we provide mentorship and hands-on experience to over 100 students, aiming to create an inclusive and accessible
+            environment for all.
           </p>
           <br />
         </div>
@@ -140,22 +147,13 @@ const ABT = () => {
           <article className="profile">
             <h2 className="profile-username">Define</h2>
 
-            <p>
-              Data science is the interdisciplinary field that 
-          uses statistical, computational, and analytical 
-          methods to extract insights and knowledge from data.
-            </p>
+            <p>Data science is the interdisciplinary field that uses statistical, computational, and analytical methods to extract insights and knowledge from data.</p>
           </article>
 
           <article className="profile">
             <h2 className="profile-username">Build</h2>
 
-            <p>
-              Building a successful data science career 
-          involves more than technical skills, 
-          encompassing job acquisition, project management, 
-          and leadership development.
-            </p>
+            <p>Building a successful data science career involves more than technical skills, encompassing job acquisition, project management, and leadership development.</p>
           </article>
         </div>
         <div className="who" id="whut">
@@ -182,11 +180,8 @@ const ABT = () => {
                   Workshop
                 </h2>
                 <p className="card__description">
-                 The Data Science Workshop enhances your 
-              practical skills, teaching you to develop 
-              simple to advanced machine learning models 
-              in Python, including bank fraud detection, 
-              using real examples for real results.
+                  The Data Science Workshop enhances your practical skills, teaching you to develop simple to advanced machine learning models in Python, including bank fraud detection, using real
+                  examples for real results.
                 </p>
               </div>
             </div>
@@ -201,13 +196,8 @@ const ABT = () => {
                   Projects
                 </h2>
                 <p className="card__description">
-                 Unlock the power of data with our dynamic 
-              approach to analysis, using scientific 
-              methods and cutting-edge algorithms. Gain 
-              hands-on machine learning expertise and 
-              transform data into actionable insights 
-              through impactful projects. Embark on this 
-              exciting adventure and elevate your data science career!
+                  Unlock the power of data with our dynamic approach to analysis, using scientific methods and cutting-edge algorithms. Gain hands-on machine learning expertise and transform data into
+                  actionable insights through impactful projects. Embark on this exciting adventure and elevate your data science career!
                 </p>
               </div>
             </div>
@@ -222,10 +212,8 @@ const ABT = () => {
                   Open Source
                 </h2>
                 <p className="card__description">
-                  Open-source has become the standard for building 
-              software across diverse industries, with companies 
-              both using open source code for their products and 
-              recognizing the strategic value of contributing back.
+                  Open-source has become the standard for building software across diverse industries, with companies both using open source code for their products and recognizing the strategic value
+                  of contributing back.
                 </p>
               </div>
             </div>
