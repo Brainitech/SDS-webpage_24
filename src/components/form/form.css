@@ -59,11 +59,11 @@
   transition: all 300ms;
 }
 .whatsapp:hover {
-  background-color: #075E54;
+  background-color: #075e54;
   cursor: pointer;
 }
 
-.whatsapp a{
+.whatsapp a {
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
@@ -289,6 +289,7 @@
   color: white;
   font-size: 2rem;
   font-weight: 600;
+  margin: 50px 0;
 }
 .form_wrapper.None {
   display: none;
@@ -304,16 +305,14 @@
   gap: 10px;
 }
 .GoBack i,
-.GoBack a
- {
+.GoBack a {
   font-size: 1.5rem;
   color: white;
   transition: all 300ms;
   text-decoration: none;
 }
 .GoBack:hover i,
-.GoBack:hover a
-{
+.GoBack:hover a {
   color: rgba(255, 255, 255, 0.637);
 }
 .loading-container2 {
@@ -364,4 +363,29 @@
   justify-content: center;
   gap: 10px;
   font-size: 1.2rem;
+}
+.githublnkd {
+  margin-bottom: 50px;
+}
+h4.githublnk {
+  color: white !important;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.githublnks {
+  display: flex;
+  justify-content: center;
+}
+.githublnks a {
+  color: rgba(255, 255, 255, 0.473) !important;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: all 0.3s ease;
+  font-size: larger;
+}
+
+.githublnks a:hover {
+  color: white !important;
+  text-decoration: underline;
+  cursor: pointer;
 }

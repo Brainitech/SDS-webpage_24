@@ -122,11 +122,6 @@ const ABT = () => {
           <a href="bootcamp" target="_blank">
             <button style={{ width: "340px" }}>Register now</button>
           </a>
-          <h5 className="githublnk">Star these GitHub repos; we'll revisit these open source libraries during the course:</h5>
-          <div className="githublnks">
-            <a href="https://github.com/pathwaycom/pathway">Pathway Github</a>
-            <a href="https://github.com/pathwaycom/llm-app">LLM App Github</a>
-          </div>
         </div>
       </div>
       <section id="about" ref={aboutRef}>
