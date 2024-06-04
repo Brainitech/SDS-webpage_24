@@ -381,7 +381,7 @@ h4.githublnk {
   text-decoration: none;
   padding: 0 10px;
   transition: all 0.3s ease;
-  font-size: larger;
+  font-size: 25px;
 }
 
 .githublnks a:hover {
