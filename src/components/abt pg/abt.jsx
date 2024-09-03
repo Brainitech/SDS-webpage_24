@@ -12,7 +12,7 @@ import cardbg from "./images/abstract-background-images-wallpaper-ai-generated_6
 import sehasdev from "./images/Seshadev-Padhi-removebg-preview.png"
 import kirti from "./images/1709622482629.jpeg"
 import Footer from "../Footer/Footer"
-
+import DSS from "./images/DSS_24.jpg"
 // import REG_form from "../RAG-Reg/page.jsx"
 
 const ABT = () => {
@@ -111,16 +111,16 @@ const ABT = () => {
         </div>
         <div className="reg" style={{ display: "flex", flexDirection: "column", marginTop: "10vh", marginRight: "4vw" }}>
           <img
-            src="sds_bootcamp_new.jpg"
+            src={DSS}
             style={{
-              height: "450px",
-              width: "340px",
+              height: "400px",
+              width: "400px",
               borderRadius: "20px 20px 0px 0px",
-              boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+              boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(3, 22, 62)",
             }}
           />
-          <a href="bootcamp" target="_blank">
-            <button style={{ width: "340px" }}>Register now</button>
+          <a href="https://dssbitm24.netlify.app/events" target="_blank">
+            <button style={{ width: "400px" }}>Register now</button>
           </a>
         </div>
       </div>
